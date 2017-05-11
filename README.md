@@ -16,7 +16,7 @@
 
 ## Overview
 
-A JDBC driver wrapper for the Hadoop Hive driver, but with Kerberos taken care off. This will allow SQL clients wishing to connect to Hive, to just import a driver as a plain old JAR file, without worrying about all of the difficult Kerberos details (_provided you already have a valid TGT in your list_).
+A JDBC driver wrapper for the Hadoop Hive driver, but with Kerberos taken care of. This will allow SQL clients wishing to connect to Hive, to just import a driver as a plain old JAR file, without worrying about all of the difficult Kerberos details (_provided you already have a valid TGT in your list_).
 
 Particularly useful for SQL clients that do not support Kerberos authentication, but you would still like to use them to query a Kerberized Hadoop cluster, and you don't want to use Hue, beeline, etc. to hit Hive.
 
